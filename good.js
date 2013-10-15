@@ -3,7 +3,7 @@ var mongodb = require('mongodb');
 var logger = require('./logger.js');
 var app = express();
 
-var MONGODB_URI = 'mongodb://localhost'
+var MONGODB_URI = 'mongodb://localhost';
 var db;
 var coll;
 
